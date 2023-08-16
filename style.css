@@ -1,5 +1,5 @@
 header {
-	background: #ccc;
+	background: #2a7c86;
 	padding: 20px 0;
 }
 
@@ -47,7 +47,7 @@ nav a:hover{
 	margin: 0 1.5%;
 	padding: 30px 20px;
 	box-sizing: border-box;
-	border: 2px solid black;
+	border: 2px solid rgb(56, 137, 168);
 	border-radius: 10px;
 }
 
@@ -79,7 +79,7 @@ nav a:hover{
 footer{
 	background-color: #ccc;
 	text-align: center;
-	background: url(bg.jpg);
+	background:#2a7c86;
 	padding: 40px 0;
 }
 
@@ -98,7 +98,7 @@ form{
 }
 
 input{
-	border: 2px solid rgb(0, 208, 255);
+	border: 2px solid rgb(30, 128, 150);
 	border-radius: 5px;
 
 }
@@ -106,7 +106,7 @@ input{
 
 
 input:hover{
-	border: 2px solid blueviolet;
+	border: 2px solid rgb(0, 0, 0);
 }
 
 form label{
