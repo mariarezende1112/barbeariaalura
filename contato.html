@@ -24,21 +24,31 @@
 			<input type="text" id="nomesobrenome">
 
 			<label for="email">Email</label>
-			<input type="text" id="email">
+			<input type="email" id="email">
 
 			<label for="telefone">Telefone</label>
-			<input type="text" id="telefone">
+			<input type="tel" id="telefone">
 
             <label for="digite sua mensagem">digite sua mensagem mensagem</label>
 
 			<textarea name="mensagem" id="mensagem" cols="62" rows="10"></textarea>
 	
-             <label for="contato">como prefere nosso contato? </label>
-			 <input type="radio">
-             <input type="radio">
-			 <input type="radio">
-			 
-			<input type="submit" value="Clique aqui!!">
+         <div>           
+			<label for="contato">como prefere nosso contato? </label>
+             
+			<input type="radio" value="email" id="email radio" name="contato"> 
+			
+			<label for="email radio">Email</label>
+
+			<input type="radio" value="ligação" id="ligação" name="contato">
+			<label for="ligação">Ligação</label>
+			<input type="radio" value="whatsapp" id="whatsapp radio" name="contato">
+			<label for="whatsapp">Whatsapp</label>
+		</div>
+       <label> <input type="checkbox"> Gostaria de receber nossas novidades por e-mail</label>
+	
+     <input type="submit" value="Clique aqui!">
+  
 
 		</form>
 	</main>
