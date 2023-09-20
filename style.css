@@ -127,3 +127,16 @@ form input{
 textarea{
 	margin: 0 0 20px 0;
 }
+
+table{
+	margin: 20px 40px;
+}
+thead{ 
+	background: #2a7c86;
+	color: #f7f5f5;
+	font-weight: bold;
+}
+td{
+	border: 2px solid black;
+	padding: 16px 8px;
+}
